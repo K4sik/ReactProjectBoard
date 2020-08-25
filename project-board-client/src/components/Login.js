@@ -14,6 +14,9 @@ export default function Login() {
   }
 
   return (
+
+      // connect to server
+
     <div className="Login">
       <form onSubmit={handleSubmit}>
         <FormGroup controlId="email" bsSize="large">
