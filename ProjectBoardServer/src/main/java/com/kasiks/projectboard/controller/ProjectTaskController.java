@@ -16,7 +16,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/board")
 @CrossOrigin
-public class ProjectTaskController {        // test pushing
+public class ProjectTaskController {        // test push
 
     @Autowired
     private ProjectTaskService projectTaskService;
